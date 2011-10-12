@@ -7,6 +7,9 @@ Steps to make use of this:
 3. `cd oe-repo`
 4. `repo init -u https://github.com/kergoth/oe-repo-manifest`
 5. `repo sync`
+6. `make` (to start a build)
+
+You may run `make help` to see the available targets in the makefile wrapper.
 
 Now you can use repo subcommands to interact with the repositories. Useful ones:
 
