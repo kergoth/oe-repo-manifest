@@ -9,5 +9,7 @@
   <project name="openembedded-core" path="oe-core"/>
   <project name="meta-openembedded" path="meta-oe"/>
 
-  <project remote="kergoth" name="oe-repo-build" path="build"/>
+  <project remote="kergoth" name="oe-repo-build" path="build" >
+    <copyfile dest="Makefile" src="repo.mk"/>
+  </project>
 </manifest>
