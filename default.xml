@@ -7,9 +7,9 @@
 
   <project name="bitbake" path="bitbake"/>
   <project name="openembedded-core" path="oe-core"/>
-  <project name="meta-openembedded" path="meta-oe"/>
+  <project name="meta-micro" path="meta-micro"/>
 
-  <project remote="kergoth" name="oe-repo-build" path="build" >
+  <project remote="kergoth" name="oe-repo-build" branch="micro" path="build" >
     <copyfile dest="Makefile" src="repo.mk"/>
   </project>
 </manifest>
