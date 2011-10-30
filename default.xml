@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="https://github.com/openembedded/" name="oe"/>
+  <remote fetch="git://git.openembedded.org/" name="oe-direct"/>
   <remote fetch="https://github.com/kergoth/" name="kergoth"/>
 
   <default remote="oe" revision="master"/>
 
   <project name="bitbake" path="sources/bitbake"/>
   <project name="oe-core" path="sources/oe-core"/>
-  <project name="meta-micro" path="sources/meta-micro"/>
+  <project remote="oe-direct" name="meta-micro" path="sources/meta-micro"/>
 
   <project remote="kergoth" name="oe-repo-build" revision="micro" path="sources/scripts">
     <copyfile dest="Makefile" src="repo.mk"/>
