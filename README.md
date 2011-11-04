@@ -1,7 +1,7 @@
 Steps to make use of this:
 
 1. Install repo:
-    1. `curl "http://php.webtutor.pl/en/wp-content/uploads/2011/09/repo" > ~/bin/repo`
+    1. `curl http://git-repo.googlecode.com/files/repo-1.13 > ~/bin/repo`
     2. `chmod a+x ~/bin/repo`
 2. `mkdir oe-repo`
 3. `cd oe-repo`
